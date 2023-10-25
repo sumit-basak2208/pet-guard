@@ -102,7 +102,7 @@ export default function Home() {
     </div>
   </div>
 </div>
-<div style={{backgroundImage: 'url("/img/testimonial.jpg")', backgroundSize: 'cover'}} className="bg-no-repeat text-stone-500 h-[30rem] my-10 py-12 px-3 w-[94.95rem] flex justify-end items-center">
+<div style={{backgroundImage: 'url("/img/testimonial.jpg")', backgroundSize: 'cover'}} className="bg-no-repeat text-stone-500 h-[30rem] my-10 py-12 px-3 w-screen flex justify-end items-center">
   <div className="mx-20 max-w-[40rem]">
     <div className="flex flex-wrap justify-end -ml-3 -mr-3">
       <div>
