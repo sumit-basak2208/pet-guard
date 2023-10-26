@@ -26,7 +26,6 @@ export default function Home() {
     <div className="flex flex-wrap -ml-6 -mr-6">
       <div className="px-6">
         <div className="relative">
-          <img src="file:///img/about.jpg" className="bottom-0 h-[31.25rem] left-0 object-cover absolute top-0 align-middle w-[32rem] overflow-clip" />
         </div>
       </div>
       <div className="px-6 grid grid-cols-12 gap-12">
@@ -102,7 +101,7 @@ export default function Home() {
     </div>
   </div>
 </div>
-<div style={{backgroundImage: 'url("/img/testimonial.jpg")', backgroundSize: 'cover'}} className="bg-no-repeat text-stone-500 h-[30rem] my-10 py-12 px-3 w-screen flex justify-end items-center">
+<div style={{backgroundImage: 'url("/img/testimonial.jpg")', backgroundSize: 'cover'}} className="bg-no-repeat text-stone-500 h-[30rem] my-10 py-12 px-3 min-w-screen flex justify-end items-center">
   <div className="mx-20 max-w-[40rem]">
     <div className="flex flex-wrap justify-end -ml-3 -mr-3">
       <div>
